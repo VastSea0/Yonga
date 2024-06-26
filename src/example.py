@@ -1,5 +1,5 @@
-# converter.py dosyasını içe aktar
-import converter
+# converter.py dosyasından yazdir fonksiyonunu içe aktar
+from converter import yazdir
 
 # yazdir fonksiyonunu çalıştır
-converter.yazdir("Merhaba, dünya!")
+yazdir("Merhaba, dünya!")
